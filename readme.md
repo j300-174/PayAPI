@@ -15,3 +15,18 @@ The `css/styles.css` file contains a basic starting template for a responsive pa
 ## js/scripts.js
 
 The `js/scripts.js` file contains a simple console.log statement to confirm that it is being executed.
+
+# Introduction
+For this assignment, my chosen topic is to create a Single-Page Application (SPA) portfolio website that will showcase my web development skills learnt in the assignment, 4 sections include: .
+
+#References
+
+* Markdown syntax: https://www.markdownguide.org/basic-syntax
+
+* https://github.com/logos
+
+* Git branching naming conventions: https://codingsight.com/git-branching-naming-convention-best-practices/
+
+* How to copyright websites: https://love2dev.com/blog/html-website-copyright/, https://the-dots.com/asks/hi-all-which-kind-of-legal-copyright-can-i-put-at-the-bottom-of-my-portfolio-85
+
+*
