@@ -5,19 +5,23 @@
 
 body {
   background: #fcc;
-} 
+  font-family: "Arial", "sans-serif";
+}
 
-
+header ul {
+  list-style: none;
+  display: flex;
+}
 
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
   body {
     background: #cfc;
-  } 
+  }
 }
 
 
@@ -30,5 +34,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
