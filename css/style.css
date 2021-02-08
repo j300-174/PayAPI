@@ -8,9 +8,37 @@ body {
   font-family: "Arial", "sans-serif";
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 header ul {
   list-style: none;
   display: flex;
+}
+
+header li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+header a {
+  float: left;
+}
+
+header img {
+  height: 2em;
+  width: 2em;
+}
+
+/* hamburger menu css */
+
+div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 /* TABLET STYLES */
