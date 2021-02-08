@@ -21,16 +21,16 @@ For this assignment, my chosen topic is to create a Single-Page Application (SPA
 
 The **4 sections** include:
 
-1.
-2.
-3.
-4.
+1. Home
+2. Projects
+3. About
+4. Contacts
 
 ## References
 
 * [Markdown syntax](https://www.markdownguide.org/basic-syntax)
 
-* [Github img assets](https://github.com/logos)
+* [Github image assets](https://github.com/logos)
 
 * [Git branching naming conventions](https://codingsight.com/git-branching-naming-convention-best-practices/)
 
