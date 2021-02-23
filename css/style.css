@@ -36,11 +36,17 @@ header img {
 
 /* hamburger menu css */
 
-div {
+/* div {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
+} */
+
+#menuToggler {
+  font-size: 2em;
+  text-align: right;
+  color: white;
 }
 
 /* TABLET STYLES */
