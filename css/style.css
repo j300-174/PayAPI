@@ -1,0 +1,74 @@
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+body {
+  background: #fcc;
+  font-family: "Arial", "sans-serif";
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: lightblue;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+header a {
+  float: left;
+}
+
+header img {
+  height: 2em;
+  width: 2em;
+}
+
+/* hamburger menu css */
+
+/* div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+} */
+
+#menuToggler {
+  font-size: 2em;
+  text-align: right;
+  color: white;
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+  /* applies to screens wider than 499px */
+
+  body {
+    background: #cfc;
+  }
+}
+
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+  /* applies to screens wider than 999px */
+
+  body {
+    background: #ccf;
+  }
+}
