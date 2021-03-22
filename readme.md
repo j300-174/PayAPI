@@ -21,9 +21,9 @@ For this assignment, my chosen topic is to create a Single-Page Application (SPA
 
 The **4 sections** include:
 
-1. Home
-2. Projects
-3. About
+1. Home + Login
+2. Features + why us
+3. Pricing
 4. Contacts
 
 ## References
