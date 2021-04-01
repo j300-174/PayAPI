@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacts</title>
+  </head>
+  <body>
+    <h1>input header here...</h1>
+      <!--
+        add email
+        telephone no.
+        skype?
+        fb / twitter / other stuff like github..
+        LinkedIn
+      -->
+      <h1>Contact me</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <!-- <form class="" action="index.html" method="post">
+      // action: store user data...? JS
+      </form> -->
+
+      <form id="form">
+      <!-- <form id="form" action="index.html" method="post"> -->
+        <fieldset>
+          <legend>Contact me</legend>
+          <label for="name">Name:</label>
+          <input id="name" type="text" placeholder="Enter your name" value="" required><br>
+
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email" placeholder="Enter your email" value="" required><br>
+  <!-- set input text bigger... -->
+          <label for="msg">Enter your message:</label>
+          <input id="msg" type="text" name="message" value="" required><br>
+  <!-- button type submit sends data to server...that's y js refreshes..
+    use type button-->
+          <input id="send" type="submit" aria-label="send form" value="send">
+          <!-- <button type="submit" aria-label="send form">Send</button> -->
+          <!-- <button type="submit" name="button"></button> -->
+        </fieldset>
+      </form>
+      <p id="sent"></p>
+
+      <script src="js/scripts.js" type="text/javascript"></script>
+  </body>
+</html>
