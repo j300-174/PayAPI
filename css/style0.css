@@ -1,0 +1,35 @@
+/* GLOBAL STYLES + MOBILE STYLES */
+
+body {
+  font-family: "DM Serif Display", "Public Sans";
+  /* background-color: hsl(207, 16%, 50%); */
+  background-color: rgb(108, 130, 148);
+
+  /* background-color: #36536B; */
+  /* background-color: #6c8294; */
+}
+
+header nav ul {
+  display: none;
+}
+
+#menuToggler {
+  font-size: 500%;
+}
+/* TABLET STYLES */
+
+@media screen and (min-width: 376px) {
+
+  body {
+    background-color: lightblue;
+  }
+
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: yellow;
+  }
+}
