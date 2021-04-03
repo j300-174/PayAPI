@@ -1,12 +1,18 @@
 /* GLOBAL STYLES + MOBILE STYLES */
 
 body {
-  font-family: "DM Serif Display", "Public Sans";
+  font-family: "Public Sans", "DM Serif Display";
   /* background-color: hsl(207, 16%, 50%); */
   background-color: rgb(108, 130, 148);
-
+  margin: 0;
   /* background-color: #36536B; */
   /* background-color: #6c8294; */
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5em 1.5em;
 }
 
 header nav ul {
@@ -14,8 +20,28 @@ header nav ul {
 }
 
 #menuToggler {
-  font-size: 500%;
+  /* font-size: 500%; */
+  /* font-stretch: expanded; */
 }
+
+section img {
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: #36536b;
+  text-align: center;
+}
+
+section {
+  margin: 2em;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 376px) {
