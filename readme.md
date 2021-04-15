@@ -19,3 +19,5 @@ The **4 sections** include:
 * [Git branching naming conventions](https://codingsight.com/git-branching-naming-convention-best-practices/)
 
 * [How to copyright websites](https://love2dev.com/blog/html-website-copyright/)
+
+* [How to change placeholder color] (https://www.w3schools.com/howto/howto_css_placeholder.asp)
