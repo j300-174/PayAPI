@@ -3,11 +3,15 @@
 body {
   font-family: "Public Sans", "DM Serif Display";
   /* background-color: hsl(207, 16%, 50%); */
-  background-color: rgb(108, 130, 148);
+  /* background-color: rgb(108, 130, 148); */
+  background-color: #EDF3F8;
   margin: 0;
   /* background-color: #36536B; */
   /* background-color: #6c8294; */
 }
+
+/* below: color of semi circle... */
+/* background-color: hsl(0%, 0%, 92%); */
 
 header nav {
   display: flex;
@@ -24,12 +28,21 @@ header nav ul {
   /* font-stretch: expanded; */
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+}
+
 section img {
   height: 30vh;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
+}
+
+section label {
+  background-color: #BA4270;
 }
 
 h2 {
