@@ -31,6 +31,7 @@ header nav ul {
 section {
   display: flex;
   flex-direction: column;
+  margin: 2em;
 }
 
 section img {
@@ -64,14 +65,33 @@ section label {
   border-radius: 50px;
 }
 
+#who_we_work_with ul {
+  list-style-type: none;
+  margin-top: 4em;
+}
+
+#who_we_work_with {
+  background-color: #1B262F;
+  /* border: 1px solid red; */
+  color: white;
+  align-items: center;
+  margin: 0;
+}
+
+#who_we_work_with p {
+  color: #D8D8D8;
+  opacity: 70%;
+  /* font-weight: 100; */
+}
+
+#who_we_work_with a {
+  margin-bottom: 4em;
+}
+
 h2 {
   font-size: 1.7em;
   color: #36536b;
   text-align: center;
-}
-
-section {
-  margin: 2em;
 }
 
 /* TABLET STYLES */
