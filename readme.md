@@ -1,14 +1,14 @@
 # CTEC3905 Assignment
 
 # Introduction
-For this assignment, my chosen topic is to create a Single-Page Application (SPA) portfolio website that will showcase my web development skills learnt in the assignment.
+For this assignment, my chosen topic is to create a 4-page website consisting of a landing page that will showcase my web development skills learnt in the assignment.
 
 The **4 sections** include:
 
-1. Home + Login
-2. Features + why us
-3. Pricing
-4. Contacts
+1. Home
+2. Pricing
+3. About
+4. Contact
 
 ## References
 
