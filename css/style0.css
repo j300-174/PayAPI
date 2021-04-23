@@ -13,6 +13,10 @@ body {
 /* below: color of semi circle... */
 /* background-color: hsl(0%, 0%, 92%); */
 
+header {
+
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -38,6 +42,7 @@ section img {
   height: 30vh;
   margin-left: auto;
   margin-right: auto;
+  /* TEST THIS BELOW GET RID SEE IF IMG STAYS THE SAME SIZE... */
   display: flex;
   justify-content: center;
 }
@@ -114,6 +119,38 @@ h2 {
   /* text-align: center; */
 }
 
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  text-align: center;
+  background-color: #1B262F;
+  color: white;
+}
+
+footer nav ul {
+  list-style-type: none;
+
+}
+
+footer nav section ul li img {
+height: 5vh;
+}
+
+#text {
+  opacity: 70%;
+}
+
+#social_media {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#social_media ul {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 376px) {
@@ -129,5 +166,16 @@ h2 {
 @media screen and (min-width: 769px) {
   body {
     background-color: yellow;
+  }
+
+  #menuToggler {
+    display: none;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    /* display: flex; */
+    /* justify-content: center; */
   }
 }
