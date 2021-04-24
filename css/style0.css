@@ -6,8 +6,19 @@ body {
   /* background-color: rgb(108, 130, 148); */
   background-color: #EDF3F8;
   margin: 0;
+  text-align: center;
   /* background-color: #36536B; */
   /* background-color: #6c8294; */
+}
+
+h2 {
+  font-size: 1.7em;
+  color: #36536B;
+  /* text-align: center; */
+}
+
+h3 {
+  color: #BA4270;
 }
 
 /* below: color of semi circle... */
@@ -15,6 +26,59 @@ body {
 
 header {
 
+}
+
+p {
+  color: #36536B;
+}
+
+#price {
+  color: #36536B;
+  font-size: 4em;
+  /* border-bottom: 1px solid rgba(54, 83, 107, .25); */
+}
+
+#untick {
+  opacity: 50%;
+}
+
+/* #free-plan li:nth-child(7) {
+
+} */
+
+#free-plan {
+  /* text-align: center; */
+}
+
+/* USE GRID INSTEAD (1ST COL: TICKS, 2ND COL: CONTENT) */
+/* #free-plan ul { */
+
+section ul {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(54, 83, 107, .25);
+  border-top: 1px solid rgba(54, 83, 107, .25);
+  display: flex;
+  flex-direction: column;
+  display: inline;
+}
+
+section ul li img {
+  display: inline;
+  height: 2vh;
+}
+
+/* pricing button */
+button {
+  color: #36536B;
+  border: 1px solid #36536B;
+  border-radius: 50px;
+  padding: 15px;
+  width: 15em;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header nav {
@@ -111,12 +175,6 @@ section label {
   color: white;
   padding: 15px;
   border-radius: 50px;
-}
-
-h2 {
-  font-size: 1.7em;
-  color: #36536b;
-  /* text-align: center; */
 }
 
 footer {
