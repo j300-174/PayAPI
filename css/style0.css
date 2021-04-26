@@ -32,6 +32,14 @@ p {
   color: #36536B;
 }
 
+form ul li:nth-child(1) {
+  color: red;
+  opacity: 50%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1em;
+  list-style-type: none;
+}
+
 #price {
   color: #36536B;
   font-size: 4em;
@@ -107,6 +115,17 @@ header nav ul {
 #stats {
   color: #BA4270;
   font-size: 4em;
+}
+
+#contact-companies ul {
+  border: none;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  opacity: 50%;
+  color: #36536B;
 }
 
 section ul div {
