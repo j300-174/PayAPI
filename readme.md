@@ -5,7 +5,7 @@ For this assignment, my chosen topic is to create a 4-page website consisting of
 
 The **4 sections** include:
 
-1. Home
+1. Home (index)
 2. Pricing
 3. About
 4. Contact
