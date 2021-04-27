@@ -175,14 +175,25 @@ section input {
   opacity: 50%;
 }
 
-section label {
+/* change to button... */
+#demo {
   color: white;
   background-color: #BA4270;
   text-align: center;
-  /* font-weight: bold; */
   padding: 15px;
   border-radius: 50px;
+  border: none;
+  width: 200px;
 }
+
+/* delete this after all buttons the same... */
+/* section label {
+  color: white;
+  background-color: #BA4270;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px;
+} */
 
 #who_we_work_with {
   background-color: #1B262F;
@@ -266,6 +277,27 @@ height: 5vh;
   body {
     background-color: lightblue;
   }
+
+  #menuToggler {
+    display: none;
+  }
+
+  header nav ul {
+    display: flex;
+  }
+
+  /* header nav li img {
+  } */
+
+  header nav:nth-child(1){
+    color: red;
+  }
+
+  /* header nav ul {
+    display: flex;
+    list-style-type: none;
+    /* display: flex; */
+    /* justify-content: center; */
 
 }
 
