@@ -21,11 +21,15 @@ h3 {
   color: #BA4270;
 }
 
+a {
+  color: #36536B;
+  text-decoration-line: none;
+}
 /* below: color of semi circle... */
 /* background-color: hsl(0%, 0%, 92%); */
 
 header {
-
+  display: flex;
 }
 
 p {
@@ -166,7 +170,7 @@ section input {
   border-radius: 50px;
   border: none;
   background-color: #FBFCFE;
-  box-shadow: 10px 10px 25px -10px
+  box-shadow: 10px 10px 25px -10px;
 }
 
 /* how to change input placeholder color */
@@ -249,7 +253,6 @@ footer {
 
 footer nav ul {
   list-style-type: none;
-
 }
 
 footer nav section ul li img {
@@ -284,14 +287,16 @@ height: 5vh;
 
   header nav ul {
     display: flex;
+    list-style-type: none;
+    justify-content: space-between;
   }
 
   /* header nav li img {
   } */
 
-  header nav:nth-child(1){
+  /* header nav:nth-child(1){
     color: red;
-  }
+  } */
 
   /* header nav ul {
     display: flex;
