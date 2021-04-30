@@ -107,13 +107,21 @@ header nav {
   margin: 2.5em 1.5em;
 }
 
+#nav {
+  display: flex;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
 header nav ul {
   display: none;
 }
 
+/* place on right side... */
 #menuToggler {
   /* font-size: 500%; */
   /* font-stretch: expanded; */
+  /* width: 100%; */
 }
 
 #stats {
@@ -281,6 +289,10 @@ height: 5vh;
     background-color: lightblue;
   }
 
+  h2 {
+    font-size: 3em;
+  }
+
   #menuToggler {
     display: none;
   }
@@ -291,6 +303,9 @@ height: 5vh;
     justify-content: space-between;
   }
 
+  #demo-input {
+    
+  }
   /* header nav li img {
   } */
 
