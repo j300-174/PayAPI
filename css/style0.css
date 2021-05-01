@@ -41,14 +41,18 @@ p, a {
 /* below: color of semi circle... */
 /* background-color: hsl(0%, 0%, 92%); */
 
+
+/* place on right side... */
+#menuToggler {
+  /* font-size: 500%; */
+  /* font-stretch: expanded; */
+  /* width: 100%; */
+}
+
 main {
   background-color: lightgrey;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-header {
-  /* display: flex; */
 }
 
 header nav {
@@ -129,23 +133,16 @@ button {
   margin-right: auto;
 }
 
-
 #hide {
   display: none;
 }
+
 #nav {
   display: flex;
   /* margin-left: auto;
   margin-right: auto; */
 }
 
-
-/* place on right side... */
-#menuToggler {
-  /* font-size: 500%; */
-  /* font-stretch: expanded; */
-  /* width: 100%; */
-}
 
 #stats {
   color: #BA4270;
@@ -318,6 +315,10 @@ height: 5vh;
 
   #menuToggler {
     display: none;
+  }
+
+  #hide {
+    display: flex;
   }
 
   header nav ul {

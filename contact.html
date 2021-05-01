@@ -16,16 +16,20 @@
 <body>
   <header>
     <nav>
-      <img src="./assets/shared/desktop/logo.svg" alt="logo">
-      <ul>
-        <li><a href="./pricing.html">Pricing</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><button>Schedule a Demo</button></li>
+      <ul id="nav">
+        <li><a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a></li>
+        <li id="hide"><a href="./pricing.html">Pricing</a></li>
+        <li id="hide"><a href="./about.html">About</a></li>
+        <li id="hide"><a href="./contact.html">Contact</a></li>
+        <li id="hide"><button id="demo">Schedule a Demo</button></li>
       </ul>
+      <!-- onclick() open sidebar/ nav -->
+      <!-- <img id="menuToggler" src="./images/Hamburger_icon.svg.png" height="25vh"
+      width="25vh" alt="hamburger icon"> -->
       <img aria-label="menu" id="menuToggler" src="./images/Hamburger_icon.svg" alt="hamburger icon">
     </nav>
   </header>
+
   <h2>Submit a help request and we'll get in touch shortly.</h2>
   <form class="" action="index.html" method="post">
     <fieldset>
