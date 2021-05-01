@@ -21,10 +21,23 @@ h3 {
   color: #BA4270;
 }
 
-a {
+/* p {
   color: #36536B;
-  text-decoration-line: none;
+} */
+
+p, a {
+  color: #6c8294;
 }
+
+#p-white {
+  color: white;
+  opacity: 70%;
+}
+
+  /* a {
+    color: #36536B;
+  } */
+
 /* below: color of semi circle... */
 /* background-color: hsl(0%, 0%, 92%); */
 
@@ -35,11 +48,18 @@ main {
 }
 
 header {
-  display: flex;
+  /* display: flex; */
 }
 
-p {
-  color: #36536B;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5em 1.5em;
+}
+
+header nav ul {
+  display: none;
+  list-style-type: none;
 }
 
 form ul li:nth-child(1) {
@@ -48,6 +68,27 @@ form ul li:nth-child(1) {
   border-bottom: 1px solid grey;
   padding-bottom: 1em;
   list-style-type: none;
+}
+
+
+section ul {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(54, 83, 107, .25);
+  border-top: 1px solid rgba(54, 83, 107, .25);
+  display: flex;
+  flex-direction: column;
+  display: inline;
+}
+
+section ul li img {
+  display: inline;
+  height: 2vh;
+}
+
+section h3 {
+  color: #36536B;
 }
 
 #price {
@@ -70,29 +111,11 @@ form ul li:nth-child(1) {
 /* USE GRID INSTEAD (1ST COL: TICKS, 2ND COL: CONTENT) */
 /* #free-plan ul { */
 
-section ul {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  list-style-type: none;
-  border-bottom: 1px solid rgba(54, 83, 107, .25);
-  border-top: 1px solid rgba(54, 83, 107, .25);
-  display: flex;
-  flex-direction: column;
-  display: inline;
-}
+/* multiple p */
 
-section ul li img {
-  display: inline;
-  height: 2vh;
-}
-
-section h3 {
-  color: #36536B;
-}
-
-p {
-  color: #6c8294;
-}
+/* p {
+  color: red;
+} */
 
 /* pricing button */
 button {
@@ -106,21 +129,16 @@ button {
   margin-right: auto;
 }
 
-header nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 2.5em 1.5em;
-}
 
+#hide {
+  display: none;
+}
 #nav {
   display: flex;
   /* margin-left: auto;
   margin-right: auto; */
 }
 
-header nav ul {
-  display: none;
-}
 
 /* place on right side... */
 #menuToggler {
@@ -308,9 +326,14 @@ height: 5vh;
     justify-content: space-between;
   }
 
-  #demo-input {
-
+/* add demo button on same line as email input... */
+  #email {
+    width: 20em;
   }
+
+  /* #demo-input {
+    width: 500px;
+  } */
   /* header nav li img {
   } */
 
