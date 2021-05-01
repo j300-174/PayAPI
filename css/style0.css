@@ -28,6 +28,12 @@ a {
 /* below: color of semi circle... */
 /* background-color: hsl(0%, 0%, 92%); */
 
+main {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 header {
   display: flex;
 }
@@ -58,9 +64,8 @@ form ul li:nth-child(1) {
 
 } */
 
-#free-plan {
+/* #free-plan {
   /* text-align: center; */
-}
 
 /* USE GRID INSTEAD (1ST COL: TICKS, 2ND COL: CONTENT) */
 /* #free-plan ul { */
@@ -304,7 +309,7 @@ height: 5vh;
   }
 
   #demo-input {
-    
+
   }
   /* header nav li img {
   } */
