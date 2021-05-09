@@ -34,6 +34,10 @@ p, a {
   opacity: 70%;
 }
 
+#contact-companies h3 {
+  color: #36536B;
+  opacity: 75%;
+}
   /* a {
     color: #36536B;
   } */
@@ -74,6 +78,25 @@ form ul li:nth-child(1) {
   list-style-type: none;
 }
 
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  opacity: 50%;
+  border: none;
+}
+
+form fieldset input {
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: #EDF3F8;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  color: #36536B;
+}
+
+form fieldset input:last-child {
+  padding-bottom: 4.5em;
+}
 
 section ul {
   padding-top: 2em;
@@ -151,13 +174,6 @@ button {
 
 #contact-companies ul {
   border: none;
-}
-
-form fieldset {
-  display: flex;
-  flex-direction: column;
-  opacity: 50%;
-  color: #36536B;
 }
 
 section ul div {
