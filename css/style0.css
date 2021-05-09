@@ -53,12 +53,6 @@ p, a {
   /* width: 100%; */
 }
 
-main {
-  background-color: lightgrey;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -96,6 +90,11 @@ form fieldset input {
 
 form fieldset input:last-child {
   padding-bottom: 4.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 section ul {
@@ -329,6 +328,16 @@ height: 5vh;
     font-size: 3em;
   }
 
+  main {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* h3 {
+    color: #36536B;
+  } */
+
   #menuToggler {
     display: none;
   }
@@ -371,6 +380,15 @@ height: 5vh;
 @media screen and (min-width: 769px) {
   body {
     background-color: yellow;
+  }
+
+  p {
+    color: red;
+  }
+
+/* fix global style... */
+  section h3 {
+    color: #BA4270;
   }
 
   #menuToggler {
