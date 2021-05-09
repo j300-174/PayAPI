@@ -17,7 +17,7 @@ h2 {
   /* text-align: center; */
 }
 
-h3 {
+#h3-pink {
   color: #BA4270;
 }
 
@@ -113,7 +113,7 @@ section ul li img {
   height: 2vh;
 }
 
-section h3 {
+h3 {
   color: #36536B;
 }
 
