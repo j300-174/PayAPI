@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,21 +14,43 @@
 
 <body>
   <!-- /////CONTENT///// -->
+
   <header>
-    <nav>
+    <a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a>
+    <div id="menuToggler">
+      <img src="./images/Hamburger_icon.svg" alt="hamburger icon">
+    </div>
+
+    <!-- <div id="menuToggler">
+    </div>
+ -->
+    <nav id="menu">
+      <a href="./pricing.html">Pricing</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <button id="demo" type="button" name="button">Schedule a Demo</button>
+    </nav>
+   </header>
+
+
+   <!-- <li><a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a></li> -->
+
+    <!-- <nav>
       <ul id="nav">
-        <li><a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a></li>
         <li id="hide"><a href="./pricing.html">Pricing</a></li>
         <li id="hide"><a href="./about.html">About</a></li>
         <li id="hide"><a href="./contact.html">Contact</a></li>
         <li id="hide"><button id="demo">Schedule a Demo</button></li>
-      </ul>
+      </ul> -->
       <!-- onclick() open sidebar/ nav -->
-      <!-- <img id="menuToggler" src="./images/Hamburger_icon.svg.png" height="25vh"
-      width="25vh" alt="hamburger icon"> -->
-      <img aria-label="menu" id="menuToggler" src="./images/Hamburger_icon.svg" alt="hamburger icon">
-    </nav>
-  </header>
+
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+      <!-- <div id="menuToggler">
+      </div> -->
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+      <!-- <div id="menuToggler">&#8801;</div> -->
+    <!-- </nav> -->
 
   <section>
     <img src="./assets/home/desktop/illustration-phone-mockup0.svg" alt="phone image">
@@ -106,9 +127,20 @@
     <label id="demo" for="email">Schedule a Demo</label>
   </section>
 
+  <!-- <footer>
+    <nav>
+      <p>testing</p>
+      <img id=logo src="./assets/shared/desktop/logo-white.svg" alt="logo">
+      <a href="./pricing.html">Pricing</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </footer>
+ -->
+
   <footer>
     <nav>
-      <section id="footer_nav">
+      <section>
         <ul>
           <li><img id=logo src="./assets/shared/desktop/logo-white.svg" alt="logo"></li>
           <li id=text><a href="./pricing.html">Pricing</a></li>
@@ -127,6 +159,7 @@
     <p>&copy Jedd Picones 2021</p>
   </footer>
 
+<script src="./js/scripts.js"></script>
 </body>
 
 </html>
