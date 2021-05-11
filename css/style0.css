@@ -48,7 +48,7 @@ p, a {
 
 /* place on right side... */
 
-nav {
+header nav {
   /* display: none; */
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ nav {
   transition: 0.5s;
 }
 
-nav.open {
+header nav.open {
   /* display: flex; */
   transform: translateX(0);
 }
@@ -333,17 +333,18 @@ footer nav section ul li img {
 height: 5vh;
 }
 
-#nav {
+/* #nav {
  display: flex;
  margin-left: auto;
  margin-right: auto;
-}
+} */
 
 #text {
   opacity: 70%;
 }
 
 #social_media {
+  display: flex;
   margin-left: 5em;
   margin-right: 5em;
 }
@@ -351,6 +352,7 @@ height: 5vh;
 #social_media ul {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
 }
 
 /* TABLET STYLES */
