@@ -66,24 +66,31 @@ header nav.open {
   transform: translateX(0);
 }
 
+header a {
+  position: fixed;
+  /* top: 5em; */
+  left: 20px;
+  top: 45px;
+  z-index: 1;
+  /* z-index: 1; */
+}
+
 #menuToggler {
   /* font-size: 500%; */
   /* font-stretch: expanded; */
   /* width: 100%; */
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 20px;
   z-index: 1;
-
   font-size: 4em;
-  text-align: right;
+  /* text-align: right; */
   color: #36536B;
 }
 
 #menu {
   background-color: #1B262F;
   height: 100%;
-
 }
 
 header {
@@ -237,6 +244,7 @@ section img {
   /* TEST THIS BELOW GET RID SEE IF IMG STAYS THE SAME SIZE... */
   display: flex;
   justify-content: center;
+  padding-top: 80px;
 }
 
 section input {
@@ -330,7 +338,7 @@ footer nav ul {
 }
 
 footer nav section ul li img {
-height: 5vh;
+  height: 2em;
 }
 
 /* #nav {
