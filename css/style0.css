@@ -1,11 +1,11 @@
 /* GLOBAL STYLES + MOBILE STYLES */
 
 body {
+  margin: 0;
   font-family: "Public Sans", "DM Serif Display";
   /* background-color: hsl(207, 16%, 50%); */
   /* background-color: rgb(108, 130, 148); */
   background-color: #EDF3F8;
-  margin: 0;
   text-align: center;
   /* background-color: #36536B; */
   /* background-color: #6c8294; */
@@ -66,33 +66,80 @@ header nav.open {
   transform: translateX(0);
 }
 
-/* fix pricing first child under nav... */
-header a img {
+#logo {
+  /* padding-top: 1em;
+  padding-right: 12em; */
   position: fixed;
   /* top: 5em; */
   left: 20px;
-  top: 45px;
+  top: 20px;
   z-index: 1;
-  /* z-index: 1; */
+
 }
 
 #menuToggler {
-  /* font-size: 500%; */
-  /* font-stretch: expanded; */
-  /* width: 100%; */
   position: fixed;
-  top: 10px;
   right: 20px;
+  top: 30px;
   z-index: 1;
-  font-size: 4em;
-  /* text-align: right; */
-  color: #36536B;
+  /* padding-right: 1em;
+  padding-top: 1em; */
 }
+
+/* reset nav... */
 
 #menu {
   background-color: #1B262F;
-  height: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* opacity: 0; */
+  transform: translateX(100vw);
+  transition: 0.5s;
+}
+
+nav.open {
+  transform: none;
+  opacity: 1;
+}
+
+nav a {
+  font-size: 2em;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  /* text-align: center; */
+}
+
+nav a:first-child {
+  padding-top: 3em;
+}
+
+header a {
+
+}
+/* #menuToggler { */
+  /* font-size: 500%; */
+  /* font-stretch: expanded; */
+  /* width: 100%; */
+  /* position: fixed;
+  top: 10px;
+  right: 20px;
   z-index: 1;
+  font-size: 4em; */
+  /* text-align: right; */
+  /* color: #36536B;
+} */
+
+#menu {
+  /* background-color: #1B262F;
+  height: 100%;
+  z-index: 1; */
 }
 
 header {
@@ -383,13 +430,38 @@ footer nav section ul li img {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  nav {
+    display: flex;
+    flex-direction: row;
+    transform: none;
+    opacity: 1;
+    height: auto;
+    position: static;
+    font-size: 0.7rem;
+  }
+
+  #menuToggler {
+    display: none;
+  }
+
+  header nav {
+    /* display: none; */
+    display: flex;
+    background-color: none;
+    /* flex-direction: row; */
+
+    /* position: fixed; */
+    /* width: 100%; */
+    /* padding-top: 15em; */
+    /* top: 0px; */
+    /* transform: translateX(0vw); */
+    /* transition: 0.5s; */
+  }
+
   /* h3 {
     color: #36536B;
   } */
 
-  #menuToggler {
-
-  }
 
   #hide {
     display: flex;
