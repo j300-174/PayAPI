@@ -422,7 +422,8 @@ footer nav section ul li img {
 
 /* TABLET STYLES */
 
-@media screen and (min-width: 376px) {
+/* 376px */
+@media screen and (min-width: 600px) {
 
   body {
     background-color: lightblue;
@@ -503,6 +504,12 @@ footer nav section ul li img {
     /* #FBFCFE */
     /* border-top: 1px solid grey; */
   }
+
+  /* #logom, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
 
   #menu {
     height: auto;
@@ -601,5 +608,11 @@ footer nav section ul li img {
     list-style-type: none;
     /* display: flex; */
     /* justify-content: center; */
+  }
+
+  #logo, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
