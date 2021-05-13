@@ -41,22 +41,38 @@
 
   <h2 id="top-content">We empower <br> innovators <br> by delivering access to the financial system</h2>
 
-  <section>
+  <article>
     <h3>Our Vision</h3>
     <p>Our main goal is to build beautiful consumer experiences along with developer-friendly
       infrastructure. The result is an intelligent tool that gives everyone the ability to create
       amazing products that solve big problems. We are deeply focused on democratizing financial
       services through technology.</p>
-  </section>
+  </article>
 
-  <section>
+  <article>
     <h3>Our Business</h3>
     <p>At the core of our platform is the technical infrastructure APIs that connect consumers.
       Our innovative product provides key insights for businesses and individuals, as well as
       robust reporting for traditional financial institutions and developers.</p>
-  </section>
+  </article>
 
-  <img src="./assets/about/mobile/image-team-members.jpg" alt="team members image">
+  <!-- <source media="(min-width: 730px)" srcset="./assets/about/mobile/image-team-members.jpg"> -->
+  <!-- <img id="team-img"
+    src="./assets/about/mobile/image-team-members.jpg"
+    srcset=
+      "./assets/about/tablet/image-team-members.jpg 730w,
+      ./assets/about/desktop/image-team-members.jpg 900px"
+    alt="team members image"> -->
+
+  <img id="team-img1" src="assets/about/mobile/image-team-members.jpg" alt="team members">
+  <img id="team-img2" src="assets/about/tablet/image-team-members.jpg" alt="team members">
+  <img id="team-img3" src="assets/about/desktop/image-team-members.jpg" alt="team members">
+
+  <!-- <picture>
+    <source media="(max-width: 730px)" srcset="./assets/about/desktop/image-team-members.jpg 900px">
+    <source media="(min-width: 900px)" srcset="./assets/about/tablet/image-team-members.jpg 900px">
+    <img src="./assets/about/mobile/image-team-members.jpg 900px" alt="team members">
+  </picture> -->
 
   <section>
     <ul>
@@ -73,18 +89,18 @@
     </ul>
   </section>
 
-  <section>
+  <article>
     <h3>The Culture</h3>
     <p>We strongly believe there's always an opportunity to learn from each other outside of
       day-to-day work, whether it's company-wide offsites, internal hackathons, or co-worker meetups.
       We always value cross-team collaboration and diversity of thought, no matter the job title.</p>
-  </section>
+  </article>
 
-  <section>
+  <article>
     <h3>The People</h3>
     <p>We're all passionate about building a more efficient and inclusive financial infrastructure
       together. At PayAPI, we have diverse backgrounds and skills.</p>
-  </section>
+  </article>
 
   <section>
     <h2>Ready to start?</h2>
@@ -93,6 +109,21 @@
   </section>
 
   <footer>
+      <a href="./index.html"><img src="./assets/shared/desktop/logo-white.svg" alt="logo"></a>
+      <a href="./pricing.html">Pricing</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+
+    <section id="social_media">
+      <ul>
+        <li><a href="#"><img src="./assets/shared/desktop/facebook-white.svg" alt="facebook logo"></a></li>
+        <li><a href="#"><img src="./assets/shared/desktop/twitter.svg" alt="twitter logo"></a></li>
+        <li><a href="#"><img src="./assets/shared/desktop/linkedin.svg" alt="linkedin logo"></a></li>
+      </ul>
+    </section>
+  </footer>
+
+  <!-- <footer>
     <nav>
       <section id="footer_nav">
         <ul>
@@ -111,7 +142,7 @@
       </section>
     </nav>
     <p>&copy P2438708 2021</p>
-  </footer>
+  </footer> -->
 
   <script src="./js/scripts.js"></script>
 </body>
