@@ -9,6 +9,7 @@ body {
   text-align: center;
   /* background-color: #36536B; */
   /* background-color: #6c8294; */
+  /* z-index: 5; */
 }
 
 h2 {
@@ -52,7 +53,7 @@ p, a {
 
 /* place on right side... */
 
-.dot {
+.dot1 {
   position: absolute;
   height: 75em;
   width: 75em;
@@ -62,11 +63,27 @@ p, a {
   background-color: #36536B;
   opacity: 15%;
   border-radius: 50%;
-  display: inline-block;
+  /* display: inline-block; */
   /* transform: translateX(100vw); */
-  text-align: center;
+  /* text-align: center; */
   transform: translate(-50%, -85%);
   z-index: 2;
+}
+
+/* fix error with covering first part of page... */
+
+.dot2 {
+  position: absolute;
+  /* height: 75em;
+  width: 75em; */
+  height: 20em;
+  width: 40em;
+  background-color: #36536B;
+  opacity: 15%;
+  border-radius: 0% 0% 50% 50%;
+  transform: translate(-50%, 188%);
+  /* transform: rotate(180deg); */
+  z-index: 1;
 }
 
 header nav {
