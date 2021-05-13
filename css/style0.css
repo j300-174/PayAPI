@@ -616,6 +616,11 @@ article {
     justify-content: center;
   }
 
+  article h3 {
+    margin-top: 0.5em;
+    margin-right: 1em;
+  }
+
   main section {
     margin: 0;
     /* padding: 0; */
