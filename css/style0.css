@@ -24,8 +24,12 @@ h2 {
 
 #phone {
   z-index: 3;
+  margin-top: 2em;
 }
 
+#top-content {
+  padding-top: 2.5em;
+}
 /* p {
   color: #36536B;
 } */
@@ -101,7 +105,7 @@ p, a {
   /* display: inline-block; */
   /* transform: translateX(100vw); */
   /* text-align: center; */
-  transform: translate(-50%, 1415%);
+  transform: translate(-50%, 1345%);
   z-index: 1;
 }
 
@@ -147,6 +151,7 @@ header nav.open {
 #menu {
   background-color: #1B262F;
   z-index: 4;
+  /* padding-bottom: 5em; */
 }
 
 nav {
@@ -364,7 +369,11 @@ section img {
   /* TEST THIS BELOW GET RID SEE IF IMG STAYS THE SAME SIZE... */
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 2em;
+}
+
+#who_we_work_with {
+  /* height: 5vh; */
 }
 
 section input {
@@ -632,6 +641,25 @@ footer img {
     /* z-index: 1; */
   }
 
+  .dot3 {
+    position: absolute;
+    /* bottom: 1000px; */
+    left: 50%;
+    height: 0em;
+    width: 0em;
+    /* top: 50%;
+    right: -50%; */
+    /* text-align: center; */
+    background-color: #36536B;
+    opacity: 15%;
+    border-radius: 50% 50% 0% 0%;
+    /* display: inline-block; */
+    /* transform: translateX(100vw); */
+    /* text-align: center; */
+    transform: translate(25%, 903%);
+    z-index: 1;
+  }
+
   #menu {
     height: auto;
     background-color: yellow;
@@ -702,6 +730,52 @@ footer img {
   #features section img {
     height: 15vh;
   }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1B262F;
+    color: white;
+  }
+
+  footer a {
+    padding-top: 2.5em;
+  }
+
+  footer img {
+    height: 5vh;
+  }
+
+  /* footer {
+
+  } */
+
+  #social_media {
+    display: absolute;
+    /* right: 50%; */
+    /* margin-left: 5em;
+    margin-right: 5em; */
+    /* background-color: red; */
+  }
+
+  #social_media ul {
+    /* flex-direction: row;
+
+    display: inline-block; */
+    /* justify-content: space-around;
+    flex-direction: row; */
+  }
+  /* TEST THIS BELOW GET RID SEE IF IMG STAYS THE SAME SIZE... */
+
+    /* height: 30vh; */
+    /* margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center; */
+    /* padding-top: 80px; */
 
 }
 
