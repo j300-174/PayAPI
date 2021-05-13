@@ -299,6 +299,7 @@ h3 {
 
 #untick {
   opacity: 50%;
+  padding-top: 2em;
 }
 
 /* #free-plan li:nth-child(7) {
@@ -549,7 +550,8 @@ footer img {
 /* TABLET STYLES */
 
 /* 376px */
-@media screen and (min-width: 600px) {
+/* was 600px */
+@media screen and (min-width: 730px) {
 
   body {
     background-color: lightblue;
@@ -565,6 +567,15 @@ footer img {
     grid-template-columns: 1fr 1fr 1fr;
     /* display: flex;
     flex-direction: row; */
+  }
+
+  main section {
+    margin: 0;
+    /* padding: 0; */
+  }
+
+  #top-content {
+    padding-top: 1em;
   }
 
   nav {
@@ -798,7 +809,7 @@ footer img {
 }
 
 /* DESKTOP STYLES */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   body {
     background-color: yellow;
   }
