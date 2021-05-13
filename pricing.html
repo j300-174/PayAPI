@@ -16,7 +16,7 @@
 <body>
   <!-- NAVIGATION -->
   <!-- /////CONTENT///// -->
-  <header>
+  <!-- <header>
     <nav>
       <ul id="nav">
         <li><a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a></li>
@@ -25,18 +25,28 @@
         <li id="hide"><a href="./contact.html">Contact</a></li>
         <li id="hide"><button id="demo">Schedule a Demo</button></li>
       </ul>
-      <!-- onclick() open sidebar/ nav -->
-      <!-- <img id="menuToggler" src="./images/Hamburger_icon.svg.png" height="25vh"
-      width="25vh" alt="hamburger icon"> -->
       <img aria-label="menu" id="menuToggler" src="./images/Hamburger_icon.svg" alt="hamburger icon">
     </nav>
-  </header>
+  </header> -->
+
+  <a href="./index.html"><img id="logo" src="./assets/shared/desktop/logo.svg" alt="logo"></a>
+
+  <div id="menuToggler">
+    <img src="./images/Hamburger_icon.svg" alt="hamburger icon">
+  </div>
+
+  <nav id="menu">
+    <a href="./pricing.html">Pricing</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
+    <a href="#"><button id="demo" type="button" name="button">Schedule a Demo</button></a>
+  </nav>
 
 <!-- <div class="container">
   <nav>Navbar</nav>
 
 </div> -->
-<h2>Pricing</h2>
+<h2 id="top-content">Pricing</h2>
 
 <main>
   <!-- /////free-plan///// -->
@@ -118,7 +128,7 @@
     </nav>
     <p>&copy Jedd Picones 2021</p>
   </footer>
-
+  <script src="./js/scripts.js"></script>
 </body>
 
 </html>
