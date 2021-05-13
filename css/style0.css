@@ -836,6 +836,19 @@ footer img {
     justify-content: flex-end;
   }
 
+  #top-content {
+    padding-right: 15em;
+  }
+
+  #ready-to-start {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #ready-to-start input, #ready-to-start label {
+    height: 1em;
+  }
+
   /* #dot {
     background-color: #36536B;
   }
