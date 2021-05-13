@@ -31,9 +31,9 @@ h2 {
   padding-top: 2.5em;
 }
 
-/* #team-img1 {
-
-} */
+#team-img1 {
+  width: 100vw;
+}
 
 #team-img2 {
   display: none;
@@ -642,6 +642,7 @@ article {
 
   #team-img2 {
     display: inline-block;
+    width: 100vw;
   }
 
   /* #team-img3 {
@@ -893,15 +894,13 @@ article {
     display: none;
   }
 
-    /* #team-img1 { display: none;
-    } */
-
   #team-img2 {
     display: none;
   }
 
   #team-img3 {
     display: inline-block;
+    width: 100vw;
   }
 
   header nav ul {
@@ -919,6 +918,8 @@ article {
 
   #top-content {
     /* padding-right: 15em; */
+    text-align: left;
+    width: 75%;
   }
 
   #ready-to-start {
