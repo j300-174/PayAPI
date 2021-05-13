@@ -212,6 +212,10 @@ nav.open a:first-child {
   /* color: #36536B;
 } */
 
+#tick-svg {
+  height: 1em;
+}
+
 #menu {
   /* background-color: #1B262F;
   height: 100%;
