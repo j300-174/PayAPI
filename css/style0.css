@@ -347,13 +347,11 @@ section ul div {
   padding-bottom: 1em;
 }
 
-section ul {
-  border-top: 1px solid rgba(54, 83, 107, .25);
-  border-bottom: 1px solid rgba(54, 83, 107, .25);
-  color: #36536B;
-  /* display: flex;
-  flex-direction: column; */
-}
+/* section ul {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+} */
 
 section ul div {
   padding-top: 2em;
@@ -387,6 +385,14 @@ section input {
   background-color: #FBFCFE;
   box-shadow: 10px 10px 25px -10px;
   z-index: -1;
+}
+
+#plans ul {
+  /* background-color: green; */
+  border-top: 1px solid rgba(54, 83, 107, .25);
+  border-bottom: 1px solid rgba(54, 83, 107, .25);
+  color: #36536B;
+  /* margin: 0; */
 }
 
 /* how to change input placeholder color */
@@ -557,6 +563,8 @@ footer img {
     background-color: lightgrey;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* display: flex;
+    flex-direction: row; */
   }
 
   nav {
@@ -578,6 +586,12 @@ footer img {
 
   #menuToggler {
     display: none;
+  }
+
+  #price {
+    /* color: #36536B; */
+    font-size: 3em;
+    /* border-bottom: 1px solid rgba(54, 83, 107, .25); */
   }
 
   header nav {
