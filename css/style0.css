@@ -21,6 +21,10 @@ h2 {
   color: #BA4270;
 }
 
+#phone {
+  z-index: 3;
+}
+
 /* p {
   color: #36536B;
 } */
@@ -73,14 +77,14 @@ header nav.open {
   /* top: 5em; */
   left: 20px;
   top: 20px;
-  z-index: 3;
+  z-index: 5;
 }
 
 #menuToggler {
   position: fixed;
   right: 20px;
   top: 30px;
-  z-index: 3;
+  z-index: 5;
   /* padding-right: 1em;
   padding-top: 1em; */
 }
@@ -89,7 +93,7 @@ header nav.open {
 
 #menu {
   background-color: #1B262F;
-  z-index: 2;
+  z-index: 4;
 }
 
 nav {
@@ -118,6 +122,12 @@ nav a:nth-child(-n+3) {
   text-decoration: none;
   padding: 1.5em 1em;
   text-align: center;
+}
+
+nav a:first-child {
+  border-top: 1px solid rgba(251, 252, 254, 0.25);
+  padding-top: 2em;
+  margin-top: 5em;
 }
 
 nav.open a:first-child {
@@ -425,6 +435,23 @@ footer nav section ul li img {
 /* 376px */
 @media screen and (min-width: 600px) {
 
+  .dot {
+    position: absolute;
+    height: 75em;
+    width: 75em;
+    /* top: 50%;
+    right: -50%; */
+    /* text-align: center; */
+    background-color: #36536B;
+    opacity: 15%;
+    border-radius: 50%;
+    display: inline-block;
+    /* transform: translateX(100vw); */
+    text-align: center;
+    transform: translate(-50%, -85%);
+    z-index: 2;
+  }
+
   body {
     background-color: lightblue;
   }
@@ -513,7 +540,8 @@ footer nav section ul li img {
 
   #menu {
     height: auto;
-    background-color: lightblue;
+    background-color: yellow;
+    /* opacity: 15%; */
     /* height: 100vh; */
     /* width: 100vw; */
     /* width: 100%; */
@@ -584,14 +612,9 @@ footer nav section ul li img {
 }
 
 /* DESKTOP STYLES */
-
 @media screen and (min-width: 769px) {
   body {
     background-color: yellow;
-  }
-
-  p {
-    color: red;
   }
 
 /* fix global style... */
@@ -615,4 +638,10 @@ footer nav section ul li img {
     flex-direction: row;
     justify-content: flex-end;
   }
+
+  /* #dot {
+    background-color: #36536B;
+  }
+ */
+
 }
