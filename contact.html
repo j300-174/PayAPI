@@ -14,7 +14,21 @@
 </head>
 
 <body>
-  <header>
+
+  <a href="./index.html"><img id="logo" src="./assets/shared/desktop/logo.svg" alt="logo"></a>
+
+  <div id="menuToggler">
+    <img src="./images/Hamburger_icon.svg" alt="hamburger icon">
+  </div>
+
+  <nav id="menu">
+    <a href="./pricing.html">Pricing</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
+    <a href="#"><button id="demo" type="button" name="button">Schedule a Demo</button></a>
+  </nav>
+
+  <!-- <header>
     <nav>
       <ul id="nav">
         <li><a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a></li>
@@ -22,15 +36,15 @@
         <li id="hide"><a href="./about.html">About</a></li>
         <li id="hide"><a href="./contact.html">Contact</a></li>
         <li id="hide"><button id="demo">Schedule a Demo</button></li>
-      </ul>
+      </ul> -->
       <!-- onclick() open sidebar/ nav -->
       <!-- <img id="menuToggler" src="./images/Hamburger_icon.svg.png" height="25vh"
       width="25vh" alt="hamburger icon"> -->
-      <img aria-label="menu" id="menuToggler" src="./images/Hamburger_icon.svg" alt="hamburger icon">
+      <!-- <img aria-label="menu" id="menuToggler" src="./images/Hamburger_icon.svg" alt="hamburger icon">
     </nav>
-  </header>
+  </header> -->
 
-  <h2>Submit a help request and we'll get in touch shortly.</h2>
+  <h2 id="top-content">Submit a help request and we'll get in touch shortly.</h2>
   <form class="" action="index.html" method="post">
     <fieldset>
       <label for="name"></label>
@@ -51,7 +65,6 @@
     <p><input type="checkbox" name="" value="">Stay up-to-date with company announcements and updates to our API</p>
     <button type="button" name="Submit" aria-label="submit form">Submit</button>
   </form>
-
 
   <section id="contact-companies">
     <!-- Make darker blue... -->
@@ -93,7 +106,7 @@
     <p>&copy Jedd Picones 2021</p>
   </footer>
 
-  <script src="js/scripts.js" type="text/javascript"></script>
+  <script src="./js/scripts.js"></script>
 </body>
 
 </html>

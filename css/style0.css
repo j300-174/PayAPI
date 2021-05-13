@@ -59,6 +59,17 @@ p, a {
 #contact-companies h3 {
   color: #36536B;
   opacity: 75%;
+  font-size: 2em;
+  /* height: 1em; */
+}
+
+#contact-companies ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#contact-companies ul li img {
+  height: 1em;
 }
   /* a {
     color: #36536B;
@@ -294,6 +305,12 @@ form fieldset input:last-child {
   padding-bottom: 4.5em;
 }
 
+form button {
+  background-color: #EDF3F8;
+  width: 175px;
+  margin-right: 50%;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -305,13 +322,14 @@ section ul {
   list-style-type: none;
   border-bottom: 1px solid rgba(54, 83, 107, .25);
   border-top: 1px solid rgba(54, 83, 107, .25);
-  display: flex;
-  flex-direction: column;
-  display: inline;
+  /* background-color: GREY; */
+  /* display: flex;
+  flex-direction: column; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
 }
 
 section ul li img {
-  /* display: inline; */
   height: 5vh;
 }
 
@@ -367,8 +385,10 @@ button {
   font-size: 4em;
 }
 
-#contact-companies ul {
-  border: none;
+#contact-companies ul li img {
+  /* border: none;
+  display: grid;
+  grid-template-columns: 1fr; */
 }
 
 section ul div {
@@ -414,6 +434,10 @@ section input {
   background-color: #FBFCFE;
   box-shadow: 10px 10px 25px -10px;
   z-index: -1;
+}
+
+#contact-companies {
+
 }
 
 #plans ul {
@@ -608,6 +632,16 @@ article {
     grid-template-columns: 1fr 1fr 1fr;
     /* display: flex;
     flex-direction: row; */
+  }
+
+  /* form #submit-btn {
+    background-color: red;
+    color: red;
+  } */
+
+  #contact-companies ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #stats-container {
