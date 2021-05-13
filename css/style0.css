@@ -611,14 +611,23 @@ article {
   }
 
   article {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 35% auto;
+    /* grid-gap: 0em; */
+    /* justify-content: center; */
   }
 
   article h3 {
     margin-top: 0.5em;
     margin-right: 1em;
+    /* text-align: left; */
+  }
+
+  article p {
+    text-align: left;
+    margin-bottom: 3em;
   }
 
   main section {
@@ -910,6 +919,15 @@ article {
     /* justify-content: center; */
   }
 
+  article {
+    margin: 0em 10em;
+    text-align: left;
+  }
+
+  article h3 {
+
+  }
+
   #logo, nav {
     display: flex;
     flex-direction: row;
@@ -919,7 +937,8 @@ article {
   #top-content {
     /* padding-right: 15em; */
     text-align: left;
-    width: 75%;
+    width: 65%;
+    margin-left: 3.3em;
   }
 
   #ready-to-start {
