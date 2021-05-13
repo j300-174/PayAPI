@@ -290,8 +290,8 @@ form fieldset {
   flex-direction: column;
   opacity: 50%;
   border: none;
-  padding-right: 8em;
-  padding-left: 8em;
+  /* padding-right: 8em;
+  padding-left: 8em; */
 }
 
 form fieldset input {
@@ -634,7 +634,8 @@ article {
   }
 
   main {
-    background-color: lightgrey;
+    /* background-color: lightblue; */
+    background-color: #EDF3F8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* display: flex;
@@ -649,6 +650,11 @@ article {
   /* form fieldset input {
     padding-right: 5em;
   } */
+
+  #form-companies {
+    display: flex;
+    flex-direction: column;
+  }
 
   #contact-companies ul {
     display: grid;
@@ -875,6 +881,16 @@ article {
     width: 20em;
   }
 
+  form {
+    padding-right: 8em;
+    padding-left: 8em;
+  }
+
+  form fieldset {
+    /* padding-right: 8em;
+    padding-left: 8em; */
+  }
+
   /* #demo-input {
     width: 500px;
   } */
@@ -971,6 +987,11 @@ article {
   #team-img3 {
     display: inline-block;
     width: 100vw;
+  }
+
+  #form-companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   header nav ul {
