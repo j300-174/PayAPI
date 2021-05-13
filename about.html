@@ -14,7 +14,19 @@
 </head>
 
 <body>
-  <header>
+  <a href="./index.html"><img id="logo" src="./assets/shared/desktop/logo.svg" alt="logo"></a>
+
+  <div id="menuToggler">
+    <img src="./images/Hamburger_icon.svg" alt="hamburger icon">
+  </div>
+
+  <nav id="menu">
+    <a href="./pricing.html">Pricing</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
+    <a href="#"><button id="demo" type="button" name="button">Schedule a Demo</button></a>
+  </nav>
+  <!-- <header>
     <nav>
       <ul id="nav">
         <li><a href="./index.html"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a></li>
@@ -23,14 +35,11 @@
         <li id="hide"><a href="./contact.html">Contact</a></li>
         <li id="hide"><button id="demo">Schedule a Demo</button></li>
       </ul>
-      <!-- onclick() open sidebar/ nav -->
-      <!-- <img id="menuToggler" src="./images/Hamburger_icon.svg.png" height="25vh"
-      width="25vh" alt="hamburger icon"> -->
       <img aria-label="menu" id="menuToggler" src="./images/Hamburger_icon.svg" alt="hamburger icon">
     </nav>
-  </header>
+  </header> -->
 
-  <h2>We empower <br> innovators <br> by delivering access to the financial system</h2>
+  <h2 id="top-content">We empower <br> innovators <br> by delivering access to the financial system</h2>
 
   <section>
     <h3>Our Vision</h3>
@@ -80,7 +89,7 @@
   <section>
     <h2>Ready to start?</h2>
     <input id="email" type="text" placeholder="Enter email address" value=""><br>
-    <label for="email">Schedule a Demo</label>
+    <label id="demo" for="email">Schedule a Demo</label>
   </section>
 
   <footer>
@@ -103,6 +112,8 @@
     </nav>
     <p>&copy P2438708 2021</p>
   </footer>
+
+  <script src="./js/scripts.js"></script>
 </body>
 
 </html>
