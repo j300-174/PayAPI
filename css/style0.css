@@ -290,6 +290,8 @@ form fieldset {
   flex-direction: column;
   opacity: 50%;
   border: none;
+  padding-right: 8em;
+  padding-left: 8em;
 }
 
 form fieldset input {
@@ -309,6 +311,11 @@ form button {
   background-color: #EDF3F8;
   width: 175px;
   margin-right: 50%;
+}
+
+form input[type="checkbox"] {
+  background-color: red;
+  border: 1px solid red;
 }
 
 main {
@@ -639,6 +646,10 @@ article {
     color: red;
   } */
 
+  /* form fieldset input {
+    padding-right: 5em;
+  } */
+
   #contact-companies ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -688,7 +699,9 @@ article {
   } */
 
   #top-content {
-    padding-top: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin: 0 2em;
   }
 
   #team-img1 {
@@ -699,6 +712,8 @@ article {
     display: inline-block;
     width: 100vw;
   }
+
+
 
   /* #team-img3 {
     display: none;
