@@ -52,6 +52,23 @@ p, a {
 
 /* place on right side... */
 
+.dot {
+  position: absolute;
+  height: 75em;
+  width: 75em;
+  /* top: 50%;
+  right: -50%; */
+  /* text-align: center; */
+  background-color: #36536B;
+  opacity: 15%;
+  border-radius: 50%;
+  display: inline-block;
+  /* transform: translateX(100vw); */
+  text-align: center;
+  transform: translate(-50%, -85%);
+  z-index: 2;
+}
+
 header nav {
   /* display: none; */
   display: flex;
@@ -434,23 +451,6 @@ footer nav section ul li img {
 
 /* 376px */
 @media screen and (min-width: 600px) {
-
-  .dot {
-    position: absolute;
-    height: 75em;
-    width: 75em;
-    /* top: 50%;
-    right: -50%; */
-    /* text-align: center; */
-    background-color: #36536B;
-    opacity: 15%;
-    border-radius: 50%;
-    display: inline-block;
-    /* transform: translateX(100vw); */
-    text-align: center;
-    transform: translate(-50%, -85%);
-    z-index: 2;
-  }
 
   body {
     background-color: lightblue;
