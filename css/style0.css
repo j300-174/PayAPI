@@ -138,6 +138,7 @@ header nav.open {
 #menu #demo {
   margin-top: 0.6em;
   margin-right: 2em;
+  margin-left: 2em;
 }
 
 #menu a:hover {
@@ -588,6 +589,11 @@ main section button:hover {
     background-color: #EDF3F8;
   }
 
+  #menu a:nth-child(3) {
+    margin-right: 5em;
+    /* padding-left: 25em; */
+  }
+
   #logo {
     position: fixed;
   }
@@ -780,4 +786,18 @@ main section button:hover {
   #ready-to-start input, #ready-to-start label {
     height: 1em;
   }
+
+  #menu {
+    justify-content: space-around;
+  }
+
+  #menu #demo {
+    /* margin-left: 10em; */
+  }
+
+  #menu a:first-child {
+    /* margin-: 5em; */
+    padding-left: 20em;
+  }
+
 }
