@@ -12,6 +12,10 @@ body {
   /* z-index: 5; */
 }
 
+/* #request-btn {
+  width: 100%;
+} */
+
 h2 {
   font-size: 1.7em;
   color: #36536B;
@@ -25,6 +29,12 @@ h2 {
 #phone {
   z-index: 3;
   margin-top: 2em;
+}
+
+#phone-desktop {
+  display: none;
+  height: 25em;
+  z-index: 1;
 }
 
 #top-content {
@@ -432,6 +442,7 @@ section img {
 
 #who_we_work_with {
   /* height: 5vh; */
+
 }
 
 section input {
@@ -472,6 +483,23 @@ section input {
   width: 200px;
 }
 
+/* #request-btn {
+  background-color: red;
+  color: red;
+}
+
+main section button {
+  background-color: red;
+  color: red;
+} */
+
+/* #access-btn { */
+/* main section button { */
+  /* background-color: red;
+  color: red;
+  width: 25em; */
+/* } */
+
 /* delete this after all buttons the same... */
 /* section label {
   color: white;
@@ -487,7 +515,20 @@ section input {
   color: white;
   align-items: center;
   margin: 0;
+  /* margin-bottom: 5em; */
+  padding-bottom: 5em;
 }
+
+/* #who_we_work_with ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  margin-right: 6em;
+  border: none;
+  margin-top: 0;
+  margin-bottom: 5em;
+} */
+
 
 #who_we_work_with ul {
   /* display: grid; */
@@ -510,6 +551,7 @@ section input {
   text-align: center;
   margin: 0 1.5em 10px;
   line-height: 200%;
+  padding-bottom: 2em;
 }
 
 #who_we_work_with a {
@@ -614,6 +656,7 @@ article {
   /* width: 100vw; */
   /* background-image: url("assets/about/mobile/image-team-members.jpg") */
 }
+
 /* TABLET STYLES */
 
 /* 376px */
@@ -877,9 +920,6 @@ article {
   }
 
 /* add demo button on same line as email input... */
-  #email {
-    width: 20em;
-  }
 
   form {
     padding-right: 8em;
@@ -974,6 +1014,78 @@ article {
 /* fix global style... */
   section h3 {
     color: #BA4270;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #phone-desktop {
+    display: inline-block;
+  }
+
+  #signup-phone {
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 65% auto;
+    grid-gap: 5em;
+    padding-top: 10em;
+    margin: 3em 5em;
+  }
+
+  .dot1 {
+    transform: translate(10%, -50%);
+  }
+  /* position: absolute;
+  height: 75em;
+  width: 75em; */
+  /* top: 50%;
+  right: -50%; */
+  /* text-align: center; */
+  /* background-color: #36536B;
+  opacity: 15%;
+  border-radius: 50%; */
+  /* display: inline-block; */
+  /* transform: translateX(100vw); */
+  /* text-align: center; */
+  /* transform: translate(-50%, -85%);
+  z-index: 1; */
+
+  #who_we_work_with {
+    padding: 5em 0em;
+  }
+
+  #who_we_work_with ul, #who_we_work_with:nth-child(n+1) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #who_we_work_with ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin-right: 6em;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 5em;
+  }
+
+  #who_we_work_with div {
+    text-align: left;
+    padding-left: 2em;
+    margin-left: 6em;
+  }
+
+  #who_we_work_with p {
+    margin: 0;
+    text-align: left;
+    padding-bottom: 2em;
+    width: 90%;
+  }
+
+  #landing-page p {
+    text-align: left;
+    margin-left: 1em;
   }
 
   #menuToggler {
