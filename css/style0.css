@@ -440,6 +440,10 @@ section img {
   padding-top: 2em;
 }
 
+section img, section h2 {
+
+}
+
 #who_we_work_with {
   /* height: 5vh; */
 
@@ -693,6 +697,14 @@ article {
   /* form fieldset input {
     padding-right: 5em;
   } */
+
+  #easy_to_implement img {
+    height: 25em;
+  }
+
+  #simple_ui_ux img {
+    height: 25em;
+  }
 
   #form-companies {
     display: flex;
@@ -1008,12 +1020,39 @@ article {
 /* DESKTOP STYLES */
 @media screen and (min-width: 992px) {
   body {
-    background-color: yellow;
+    background-color: #EDF3F8;
   }
 
 /* fix global style... */
   section h3 {
-    color: #BA4270;
+    /* color: #BA4270; */
+    color: #36536B;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  #easy_to_implement {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #simple_ui_ux {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #simple_ui_ux section {
+    padding-top: 6em;
+  }
+
+  #simple_ui_ux img {
+    height: 30em;
   }
 
   #phone {
@@ -1029,8 +1068,9 @@ article {
     /* flex-direction: row; */
     grid-template-columns: 65% auto;
     grid-gap: 5em;
-    padding-top: 10em;
+    padding-top: 5em;
     margin: 3em 5em;
+    /* padding-bottom: 5em; */
   }
 
   .dot1 {
