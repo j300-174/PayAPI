@@ -413,7 +413,10 @@ article {
   margin: 2em;
 }
 
+<<<<<<< HEAD
 /* TABLET STYLES */
+=======
+>>>>>>> 19f9e889eb1f5dc63bc6394f3af861fc22f89bd7
 @media screen and (min-width: 730px) {
 
   body {
