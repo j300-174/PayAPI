@@ -135,6 +135,10 @@ header nav.open {
   z-index: 4;
 }
 
+#menu a:hover {
+  color: #36536B;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -332,6 +336,10 @@ section input {
   width: 200px;
 }
 
+#demo:hover {
+  opacity: 75%;
+}
+
 #who_we_work_with {
   background-color: #1B262F;
   color: white;
@@ -376,6 +384,11 @@ section input {
   border-radius: 50px;
 }
 
+#who_we_work_with a:hover {
+  background-color: white;
+  color: #1B262F;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -387,6 +400,11 @@ footer {
 
 footer a {
   padding-top: 2.5em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #FBFCFE
 }
 
 footer img {
@@ -411,6 +429,15 @@ footer img {
 
 article {
   margin: 2em;
+}
+
+main section button {
+  background-color: #EDF3F8;
+}
+
+main section button:hover {
+  background-color: #36536B;
+  color: #FBFCFE;
 }
 
 /* TABLET STYLES */
