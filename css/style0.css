@@ -413,10 +413,7 @@ article {
   margin: 2em;
 }
 
-<<<<<<< HEAD
 /* TABLET STYLES */
-=======
->>>>>>> 19f9e889eb1f5dc63bc6394f3af861fc22f89bd7
 @media screen and (min-width: 730px) {
 
   body {
@@ -612,14 +609,12 @@ article {
     background-color: #EDF3F8;
   }
 
-/* fix global style... */
   section h3 {
-    /* color: #BA4270; */
     color: #36536B;
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   h3 {
@@ -654,31 +649,15 @@ article {
 
   #signup-phone {
     display: grid;
-    /* flex-direction: row; */
     grid-template-columns: 65% auto;
     grid-gap: 5em;
     padding-top: 5em;
     margin: 3em 5em;
-    /* padding-bottom: 5em; */
   }
 
   .dot1 {
     transform: translate(10%, -50%);
   }
-  /* position: absolute;
-  height: 75em;
-  width: 75em; */
-  /* top: 50%;
-  right: -50%; */
-  /* text-align: center; */
-  /* background-color: #36536B;
-  opacity: 15%;
-  border-radius: 50%; */
-  /* display: inline-block; */
-  /* transform: translateX(100vw); */
-  /* text-align: center; */
-  /* transform: translate(-50%, -85%);
-  z-index: 1; */
 
   #who_we_work_with {
     padding: 5em 0em;
