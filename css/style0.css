@@ -135,6 +135,11 @@ header nav.open {
   z-index: 4;
 }
 
+#menu #demo {
+  margin-top: 0.6em;
+  margin-right: 2em;
+}
+
 #menu a:hover {
   color: #36536B;
 }
@@ -334,6 +339,10 @@ section input {
   border-radius: 50px;
   border: none;
   width: 200px;
+}
+
+#email {
+  width: 250px;
 }
 
 #demo:hover {
