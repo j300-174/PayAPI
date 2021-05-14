@@ -30,13 +30,13 @@ The **4 sections** include:
 
 * [using flexbox reverse property value](https://css-tricks.com/almanac/properties/f/flex-direction/)
 
-* [css selector range(http://nthmaster.com/)
+* [css selector range](http://nthmaster.com/)
 
 * [HEX to RGBA converter](http://hex2rgba.devoth.com/)
 
 * [z-index: how it works](https://www.w3schools.com/cssref/playit.asp?filename=playcss_z-index&preval=2)
 
-* [Design resource: frontend mentor(https://www.frontendmentor.io/challenges/payapi-multipage-website-FDLR1Y11e)
+* [Design resource: frontend mentor](https://www.frontendmentor.io/challenges/payapi-multipage-website-FDLR1Y11e)
 
 * [How to create circles](https://www.w3schools.com/howto/howto_css_circles.asp)
 
