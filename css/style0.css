@@ -90,7 +90,7 @@ p, a {
 }
 
 .dot3 {
-  position: absolute;
+  /* position: absolute;
   left: 50%;
   height: 20em;
   width: 40em;
@@ -98,7 +98,8 @@ p, a {
   opacity: 15%;
   border-radius: 50% 50% 0% 0%;
   transform: translate(-50%, 1345%);
-  z-index: 1;
+  z-index: 1; */
+  display: none;
 }
 
 header nav {
