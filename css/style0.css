@@ -514,7 +514,12 @@ main section button:hover {
   }
 
   main section {
-    margin: 0;
+    margin: 0em;
+  }
+
+  main section p {
+    margin: 0em 4em;
+    text-align: left;
   }
 
   #top-content {
@@ -661,6 +666,10 @@ main section button:hover {
 
   h3 {
     font-size: 1.5em;
+  }
+
+  p {
+    text-align: left;
   }
 
   #easy_to_implement {
