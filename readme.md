@@ -1,4 +1,4 @@
-# CTEC3905 Assignment
+# PayAPI
 
 # Introduction
 For this assignment, my chosen topic is to create a 4-page website consisting of a landing page that will showcase my web development skills learnt in the assignment.
