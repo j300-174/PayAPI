@@ -1,7 +1,7 @@
 # PayAPI
 
 # Introduction
-For this assignment, my chosen topic is to create a 4-page website consisting of a landing page that will showcase my web development skills learnt in the assignment.
+For this assignment, my chosen topic is to create a 4-page website consisting of a landing page that will showcase my web development skills learnt in the assignment. See the site running [HERE](https://silly-benz-690a6e.netlify.app/index.html)
 
 The **4 sections** include:
 
