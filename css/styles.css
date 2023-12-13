@@ -1,5 +1,27 @@
 /* GLOBAL STYLES + MOBILE STYLES */
 
+/* Pricing */
+
+hr {
+  /* border-top: 1px solid rgba(54, 83, 107, .25);; */
+  border-top: 1px solid;
+  border-radius: 5px;
+  color: red;
+}
+
+#plans-included {
+  color: red;
+  border-top: 1px solid rgba(251, 252, 254, 0.25);
+}
+
+.foobar {
+  color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+/* testing */
+
 body {
   margin: 0;
   font-family: "Public Sans", "DM Serif Display";
@@ -27,10 +49,6 @@ h2 {
   z-index: 1;
 }
 
-#top-content {
-  padding-top: 2.5em;
-}
-
 #team-img1 {
   width: 100vw;
 }
@@ -43,7 +61,8 @@ h2 {
   display: none;
 }
 
-p, a {
+p,
+a {
   color: #6c8294;
 }
 
@@ -163,7 +182,6 @@ nav.open {
 }
 
 nav a:nth-child(-n+3) {
-  color: rgba(255, 255, 255, 1)
   font-size: 1.2em;
   text-decoration: none;
   padding: 1.5em 1em;
@@ -186,6 +204,8 @@ nav.open a:first-child {
 
 #tick-svg {
   height: 1em;
+  /* margin-right: 5px; */
+  margin: 0 10px 0 0;
 }
 
 #stats-container {
@@ -199,7 +219,6 @@ form ul li:nth-child(1) {
   opacity: 50%;
   border-bottom: 1px solid grey;
   padding-bottom: 1em;
-  list-style-type: none;
 }
 
 form fieldset {
@@ -241,13 +260,21 @@ main {
 section ul {
   padding-top: 2em;
   padding-bottom: 2em;
-  list-style-type: none;
   border-bottom: 1px solid rgba(54, 83, 107, .25);
   border-top: 1px solid rgba(54, 83, 107, .25);
 }
 
+section ul li {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em 0 0 5em;
+  /* align-items: center; */
+  /* justify */
+}
+
 section ul li img {
   height: 5vh;
+  padding: 0;
 }
 
 h3 {
@@ -261,7 +288,6 @@ h3 {
 
 #untick {
   opacity: 50%;
-  padding-top: 2em;
 }
 
 button {
@@ -307,10 +333,6 @@ section img {
   display: flex;
   justify-content: center;
   padding-top: 2em;
-}
-
-section img, section h2 {
-
 }
 
 section input {
@@ -360,7 +382,6 @@ section input {
 }
 
 #who_we_work_with ul {
-  list-style-type: none;
   margin-top: 4em;
   column-count: 2;
   display: grid;
@@ -451,6 +472,15 @@ main section button:hover {
   color: #FBFCFE;
 }
 
+#ready-to-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+
 /* TABLET STYLES */
 @media screen and (min-width: 730px) {
 
@@ -497,8 +527,7 @@ main section button:hover {
     margin-top: 4em;
   }
 
-  #stats-container span {
-  }
+  #stats-container span {}
 
   article {
     display: grid;
@@ -610,7 +639,6 @@ main section button:hover {
 
   header nav ul {
     display: flex;
-    list-style-type: none;
     justify-content: space-between;
   }
 
@@ -715,7 +743,8 @@ main section button:hover {
     padding: 5em 0em;
   }
 
-  #who_we_work_with ul, #who_we_work_with:nth-child(n+1) {
+  #who_we_work_with ul,
+  #who_we_work_with:nth-child(n+1) {
     display: flex;
     flex-direction: row-reverse;
   }
@@ -766,9 +795,12 @@ main section button:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
   header nav ul {
     display: flex;
-    list-style-type: none;
   }
 
   article {
@@ -776,24 +808,24 @@ main section button:hover {
     text-align: left;
   }
 
-  #logo, nav {
+  #logo,
+  nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
 
-  #top-content {
-    text-align: left;
-    width: 65%;
-    margin-left: 3.3em;
-  }
-
   #ready-to-start {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+    gap: 2em;
   }
 
-  #ready-to-start input, #ready-to-start label {
+  #ready-to-start input,
+  #ready-to-start label {
+    margin-top: 5px;
     height: 1em;
   }
 
