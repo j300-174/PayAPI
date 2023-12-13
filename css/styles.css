@@ -447,7 +447,24 @@ footer img {
   opacity: 70%;
 }
 
-#social_media {
+footer section ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+}
+
+footer section ul li {
+  padding: 0;
+}
+
+footer section ul li a {
+  padding: 1em 0;
+}
+
+/* #social_media {
   display: flex;
   margin-left: 5em;
   margin-right: 5em;
@@ -457,7 +474,7 @@ footer img {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-}
+} */
 
 article {
   margin: 2em;
@@ -664,6 +681,7 @@ main section button:hover {
     margin-right: auto;
     background-color: #1B262F;
     color: white;
+    padding: 0;
   }
 
   footer a {
@@ -674,9 +692,12 @@ main section button:hover {
     height: 5vh;
   }
 
-  #social_media {
+  /* #social_media {
     display: absolute;
-  }
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  } */
 }
 
 /* DESKTOP STYLES */
