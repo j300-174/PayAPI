@@ -24,9 +24,13 @@ hr {
 
 body {
   margin: 0;
-  font-family: "Public Sans", "DM Serif Display";
+  font-family: "Public Sans";
   background-color: #EDF3F8;
   text-align: center;
+}
+
+h1, h2 {
+  font-family: "DM Serif Display";
 }
 
 h2 {
@@ -156,9 +160,7 @@ header nav.open {
 }
 
 #menu #demo {
-  margin-top: 0.6em;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin: 1em auto;
 }
 
 #menu a:hover {
@@ -183,6 +185,7 @@ nav.open {
 
 nav a:nth-child(-n+3) {
   font-size: 1.2em;
+  font-weight: bold;
   text-decoration: none;
   padding: 1.5em 1em;
   text-align: center;
@@ -852,10 +855,6 @@ main section button:hover {
 
   #menu {
     justify-content: space-around;
-  }
-
-  #menu #demo {
-    /* margin-left: 10em; */
   }
 
   #menu a:first-child {
