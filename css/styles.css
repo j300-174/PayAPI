@@ -151,7 +151,7 @@ header nav.open {
   z-index: 4;
 }
 
-#menu #demo {
+#menu #demo-btn {
   margin: 1em auto;
 }
 
@@ -347,7 +347,8 @@ section input {
   opacity: 50%;
 }
 
-#demo {
+#demo-btn {
+  display: inline-block;
   color: var(--primary-white);
   background-color: var(--primary-pink);
   text-align: center;
@@ -355,13 +356,26 @@ section input {
   border-radius: 50px;
   border: none;
   width: 200px;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+}
+
+.schedule-demo-btn-span {
+  margin-left: -80px;
+  background-color: var(--primary-pink);
 }
 
 #email {
   width: 250px;
+  font-weight: bold;
 }
 
-#demo:hover {
+#email::placeholder {
+  color: var(--secondary-blue);
+}
+
+#demo-btn:hover {
   opacity: 75%;
 }
 
@@ -764,7 +778,7 @@ main section button:hover {
   }
 
   #landing-page p {
-    text-align: left;
+    text-align: center;
     margin-left: 1em;
   }
 
