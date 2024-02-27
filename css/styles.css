@@ -1,5 +1,7 @@
 /* GLOBAL STYLES + MOBILE STYLES */
 :root {
+  /* COLOUR */
+  --primary-background: #edf3f8;
   --primary-pink: #ba4270;
   --primary-white: #fbfcfe;
   --secondary-blue: #365e6b;
@@ -7,6 +9,23 @@
   --secondary-dark-blue: #1b262f;
   --secondary-pink: #da6d97;
   --border-grey: rgba(151, 151, 151, 0.59);
+
+  /* FONT SIZES */
+  --fs-extra-large: 4em;
+  --fs-large-larger: 3em;
+  --fs-large: 2em;
+  --fs-medium: 1.7em;
+  --fs-small: 1.2em;
+  --fs-extra-small: 1em;
+}
+
+#slogan-desktop,
+#slogan-tablet {
+  display: none;
+}
+
+#slogan-mobile {
+  display: block;
 }
 
 /* Pricing */
@@ -25,7 +44,7 @@ hr {
 body {
   margin: 0;
   font-family: "Public Sans";
-  background-color: var(--primary-white);
+  background-color: var(--primary-background);
   text-align: center;
 }
 
@@ -35,7 +54,7 @@ h2 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: var(--fs-medium);
   color: var(--secondary-blue);
 }
 
@@ -50,7 +69,6 @@ h2 {
 
 #phone-desktop {
   display: none;
-  height: 25em;
   z-index: 1;
 }
 
@@ -66,9 +84,10 @@ h2 {
   display: none;
 }
 
-p,
-a {
+a,
+p {
   color: var(--secondary-light-blue);
+  text-decoration: none;
 }
 
 #p-white {
@@ -79,7 +98,7 @@ a {
 #contact-companies h3 {
   color: var(--secondary-blue);
   opacity: 75%;
-  font-size: 2em;
+  font-size: var(--fs-large)
 }
 
 #contact-companies ul {
@@ -176,7 +195,7 @@ nav.open {
 }
 
 nav a:nth-child(-n+3) {
-  font-size: 1.2em;
+  font-size: var(--fs-small);
   font-weight: bold;
   text-decoration: none;
   padding: 1.5em 1em;
@@ -275,7 +294,7 @@ h3 {
 
 #price {
   color: var(--secondary-blue);
-  font-size: 4em;
+  font-size: var(--fs-extra-large);
 }
 
 #untick {
@@ -288,7 +307,7 @@ button {
   border-radius: 50px;
   padding: 15px;
   width: 15em;
-  font-size: 1em;
+  font-size: var(--fs-extra-small);
   margin-left: auto;
   margin-right: auto;
 }
@@ -299,7 +318,7 @@ button {
 
 #stats {
   color: var(--primary-pink);
-  font-size: 4em;
+  font-size: var(--fs-extra-large);
 }
 
 section ul div {
@@ -332,7 +351,7 @@ section input {
   border-radius: 50px;
   border: none;
   background-color: var(--primary-white);
-  box-shadow: 10px 10px 25px -10px;
+  box-shadow: -5px 10px 10px -15px;
   z-index: -1;
 }
 
@@ -387,6 +406,10 @@ section input {
   padding-bottom: 5em;
 }
 
+#who_we_work_with h2 {
+  color: var(--primary-white);
+}
+
 #who_we_work_with ul {
   margin-top: 4em;
   column-count: 2;
@@ -409,11 +432,12 @@ section input {
 }
 
 #who_we_work_with a {
+  display: inline-block;
   margin-bottom: 4em;
   margin-top: 3em;
   border: 2px solid white;
   border-radius: 50%;
-  width: 100px;
+  min-width: 150px;
   height: 20px;
   text-align: center;
   text-decoration: none;
@@ -495,22 +519,27 @@ main section button:hover {
 /* TABLET STYLES */
 @media screen and (min-width: 730px) {
 
-  body {
-    background-color: var(--primary-white);
-  }
-
   h2 {
-    font-size: 3em;
+    font-size: var(--fs-large-larger);
   }
 
   h3 {
-    font-size: 2em;
+    font-size: var(--fs-large);
   }
 
   main {
     background-color: var(--primary-white);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #slogan-desktop,
+  #slogan-mobile {
+    display: none;
+  }
+
+  #slogan-tablet {
+    display: block;
   }
 
   #easy_to_implement img {
@@ -584,7 +613,7 @@ main section button:hover {
     transform: none;
     opacity: 1;
     height: auto;
-    font-size: 1rem;
+    font-size: var(--fs-extra-small);
   }
 
   #menuToggler {
@@ -592,7 +621,7 @@ main section button:hover {
   }
 
   #price {
-    font-size: 3em;
+    font-size: var(--fs-large-larger);
   }
 
   nav a {
@@ -630,7 +659,7 @@ main section button:hover {
 
   #menu {
     height: auto;
-    background-color: var(--primary-white);
+    background-color: transparent;
   }
 
   #menu a:nth-child(3) {
@@ -686,24 +715,30 @@ main section button:hover {
 
 /* DESKTOP STYLES */
 @media screen and (min-width: 992px) {
-  body {
-    background-color: var(--primary-white);
-  }
 
   section h3 {
     color: var(--secondary-blue);
   }
 
   h2 {
-    font-size: 3em;
+    font-size: var(--fs-large-larger);
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: var(--fs-small);
   }
 
   p {
     text-align: left;
+  }
+
+  #slogan-desktop {
+    display: block;
+  }
+
+  #slogan-mobile,
+  #slogan-tablet {
+    display: none;
   }
 
   #easy_to_implement {
@@ -734,9 +769,8 @@ main section button:hover {
 
   #signup-phone {
     display: grid;
-    grid-template-columns: 65% auto;
-    grid-gap: 5em;
-    padding-top: 5em;
+    grid-template-columns: 55% auto;
+    padding-top: 2em;
     margin: 3em 5em;
   }
 
