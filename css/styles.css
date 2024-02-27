@@ -17,6 +17,13 @@
   --fs-medium: 1.7em;
   --fs-small: 1.2em;
   --fs-extra-small: 1em;
+
+  --text-opacity: 70%;
+}
+
+#navigation-bar {
+  display: grid;
+  grid-template-columns: 50% auto;
 }
 
 #slogan-desktop,
@@ -92,7 +99,7 @@ p {
 
 #p-white {
   color: var(--primary-white);
-  opacity: 70%;
+  opacity: var(--text-opacity);
 }
 
 #contact-companies h3 {
@@ -168,6 +175,10 @@ header nav.open {
 #menu {
   background-color: var(--secondary-dark-blue);
   z-index: 4;
+}
+
+#menu a:first-child {
+  padding-left: 20em;
 }
 
 #menu #demo-btn {
@@ -270,20 +281,20 @@ main {
   flex-direction: column;
 }
 
-section ul {
+#price-list section ul {
   padding-top: 2em;
   padding-bottom: 2em;
   border-bottom: 1px solid rgba(54, 83, 107, .25);
   border-top: 1px solid rgba(54, 83, 107, .25);
 }
 
-section ul li {
+#price-list section ul li {
   display: flex;
   flex-direction: row;
   padding: 1.5em 0 0 5em;
 }
 
-section ul li img {
+#price-list section ul li img {
   height: 5vh;
   padding: 0;
 }
@@ -422,7 +433,7 @@ section input {
 }
 
 #who_we_work_with p {
-  opacity: 70%;
+  opacity: var(--text-opacity);
   margin-left: 1.5em;
   margin-right: 1.5em;
   text-align: center;
@@ -463,6 +474,11 @@ footer {
 footer a {
   padding-top: 2.5em;
   text-decoration: none;
+  color: var(--primary-white);
+}
+
+.text-opacity {
+  opacity: var(--text-opacity);
 }
 
 footer a:hover {
@@ -474,7 +490,7 @@ footer img {
 }
 
 #text {
-  opacity: 70%;
+  opacity: var(--text-opacity);
 }
 
 footer section ul {
@@ -528,7 +544,6 @@ main section button:hover {
   }
 
   main {
-    background-color: var(--primary-white);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -742,8 +757,8 @@ main section button:hover {
   }
 
   #easy_to_implement {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% auto;
   }
 
   #simple_ui_ux {
@@ -857,7 +872,7 @@ main section button:hover {
   #ready-to-start {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 2em;
     gap: 2em;
   }
@@ -868,12 +883,5 @@ main section button:hover {
     height: 1em;
   }
 
-  #menu {
-    justify-content: space-around;
-  }
-
-  #menu a:first-child {
-    padding-left: 20em;
-  }
 
 }
