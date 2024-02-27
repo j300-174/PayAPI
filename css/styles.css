@@ -21,6 +21,12 @@
   --text-opacity: 70%;
 }
 
+#top-content {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  margin: 0 2em;
+}
+
 #navigation-bar {
   display: grid;
   grid-template-columns: 50% auto;
@@ -178,7 +184,7 @@ header nav.open {
   z-index: 4;
 }
 
-#menu a:first-child  {
+#menu a:first-child {
   padding-left: 10em;
 }
 
@@ -604,12 +610,6 @@ main section button:hover {
   main section p {
     margin: 0em 4em;
     text-align: left;
-  }
-
-  #top-content {
-    padding-top: 2em;
-    padding-bottom: 1em;
-    margin: 0 2em;
   }
 
   #team-img1 {
