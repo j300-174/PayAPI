@@ -795,7 +795,7 @@ main section button:hover {
   }
 
   .dot1 {
-    transform: translate(10%, -50%);
+    transform: translate(-10%, -50%);
   }
 
   #who_we_work_with {
